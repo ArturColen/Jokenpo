@@ -8,7 +8,7 @@ Entertain users through this game (that runs on the terminal), in which they wil
 * [Java](https://docs.oracle.com/en/java/): Programming language used to create and run the game
 
 ## 📁 Access and execute project
-### 1. Install and configure [IntelliJ IDEA](https://www.jetbrains.com/idea/download/) on your computer
+### 1. Install and configure [IntelliJ IDEA](https://www.jetbrains.com/idea/download/) and [JDK](https://www.oracle.com/br/java/technologies/downloads/) on your computer
 
 ### 2. Clone [this repository](https://github.com/ArturColen/Jokenpo) on your machine
 * Copy the [URL](https://github.com/ArturColen/Jokenpo.git) from the repository
