@@ -5,7 +5,7 @@ The project developed through a class offered by [Digital Innovation One](https:
 Entertain users through this game (that runs on the terminal), in which they will play against the machine/Artificial Intelligence (AI).
 
 ## 💻 Technologies used 
-* [Java](https://docs.oracle.com/en/java/): Programming language used to create and run the game
+* [Java](https://docs.oracle.com/en/java/): programming language used to create and run the game
 
 ## 📁 Access and execute project
 ### 1. Install and configure [IntelliJ IDEA](https://www.jetbrains.com/idea/download/) and [JDK](https://www.oracle.com/br/java/technologies/downloads/) on your computer
