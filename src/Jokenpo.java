@@ -6,15 +6,12 @@ public record Jokenpo(
     Player IA,
     int rounds
 ) {
-    // Create the game
     public void toPlay() {
         System.out.println("\n******** SEJA BEM VINDO(A), " + user.getName() + " ********\n");
 
-        // Execute the number of rounds entered by the user
         for(int i = 1; i <= rounds; i++) {
             int choiceUser = choiceUser();
 
-            // Validate the user's choice
             if(choiceUser < 1 || choiceUser > 3) {
                 System.out.println("\nJOGADA INVÁLIDA!");
                 System.out.println("\tPONTO PARA " + IA.getName() + "\n");
@@ -24,16 +21,13 @@ public record Jokenpo(
 
             int choiceIA = choiceIA();
 
-            // Display each player's bid in the round
             System.out.print("\n" + choiceUser + " X " + choiceIA + '\n');
 
-            // Check who won the round
             int result = choiceUser - choiceIA;
             roundWinner(result);
         }
     }
 
-    // Display the final result of the game to the user
     public void showFinalResult() {
         System.out.println("\n*************************\n");
 
@@ -55,7 +49,6 @@ public record Jokenpo(
 
     }
 
-    // Check the winner of the round
     private void roundWinner(int result) {
         String roundWinner;
         if(result == 0) {
@@ -72,13 +65,11 @@ public record Jokenpo(
         System.out.println("\nVENCEDOR DA RODADA: " + roundWinner + "\n");
     }
 
-    // Run a random play option
     private int choiceIA() {
         Random rand = new Random();
         return rand.nextInt(3) + 1;
     }
 
-    // Choose a game option
     private int choiceUser() {
         Scanner scan = new Scanner(System.in);
         System.out.println("1 - PEDRA");
